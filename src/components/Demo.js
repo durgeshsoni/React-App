@@ -1,10 +1,13 @@
 // import './Style.css'
+import Counter from "./Counter";
+import Task from "./Task";
 
 function Demo(props) {
   return (
-    <div className="item">
-      
-
+    <div>
+      <Counter/>
+        
+      <Task/>
     </div>
   );
 }
