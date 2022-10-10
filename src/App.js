@@ -1,11 +1,16 @@
 import React from "react";
-import Demo from "./components/Demo";
+import Header  from "./FoodApp/Layouts/Header";
+import Meals from "./FoodApp/Meals/Meals";
 
 const App = () => {
 
   return (
-    <div>
-      <Demo/>
+    <div >
+      {/* <Demo/> */}
+      <Header/>
+      <main >
+        <Meals/>
+      </main>
     </div>
   );
 };
